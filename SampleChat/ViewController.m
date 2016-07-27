@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // floating button frame
     CGRect floatFrame = CGRectMake([UIScreen mainScreen].bounds.size.width - 150 - 65, [UIScreen mainScreen].bounds.size.height - 40 - 30, 64, 64);
+
     addButton = [[VCFloatingActionButton alloc]initWithFrame:floatFrame normalImage:[UIImage imageNamed:@"pluss"] andPressedImage:[UIImage imageNamed:@"closeButton"] withScrollview:_tableView];
 
     //floating button
