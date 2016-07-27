@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Robert Mitchall</key>
+	<dict>
+		<key>image</key>
+		<string>8.png</string>
+		<key>status</key>
+		<string>Hey dude!</string>
+		<key>date</key>
+		<date>2016-07-07T00:56:26Z</date>
+	</dict>
+	<key>Carrie Ronald</key>
+	<dict>
+		<key>image</key>
+		<string>7.png</string>
+		<key>status</key>
+		<string>Lets have a coffe?</string>
+		<key>date</key>
+		<date>2016-07-01T06:37:11Z</date>
+	</dict>
+	<key>Alicia Donnoven</key>
+	<dict>
+		<key>image</key>
+		<string>10.png</string>
+		<key>status</key>
+		<string>Are you around?</string>
+		<key>date</key>
+		<date>2016-07-21T04:53:18Z</date>
+	</dict>
+	<key>Kenny Jonnes</key>
+	<dict>
+		<key>image</key>
+		<string>6.png</string>
+		<key>status</key>
+		<string>About our discussion.</string>
+		<key>date</key>
+		<date>2016-07-23T09:50:22Z</date>
+	</dict>
+</dict>
+</plist>

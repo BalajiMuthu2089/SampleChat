@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="81" id="KGk-i7-Jjw" customClass="floatTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="81"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="335" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sVt-ta-6Yu">
+                        <rect key="frame" x="128" y="0.0" width="63" height="57"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="63" id="LIV-gF-MsP"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="sVt-ta-6Yu" secondAttribute="bottom" constant="15" id="Mpd-G7-YQb"/>
+                    <constraint firstItem="sVt-ta-6Yu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="128" id="NGs-SV-FTr"/>
+                    <constraint firstItem="sVt-ta-6Yu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="XcU-Wf-Evj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgView" destination="sVt-ta-6Yu" id="IFS-Ky-Avd"/>
+            </connections>
+            <point key="canvasLocation" x="315.5" y="356.5"/>
+        </tableViewCell>
+    </objects>
+</document>
